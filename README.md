@@ -2,4 +2,4 @@ The purpose of this project is to design a hardware (PCB) header which can be us
 
 For example, lets say we wish to measure something (voltage, current, etc). It allows us to use any micro controller (teensy, arduino, beaglebone, etc) to interface to the measurement.
 
-![Alt text](ce_header_screenshot.png?raw=true "Header screen shot")
+![Alt text](images/ce_header_screenshot.png?raw=true "Header screen shot")
