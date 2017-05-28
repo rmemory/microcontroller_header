@@ -86,6 +86,7 @@ LIBS:Xicor
 LIBS:zetex
 LIBS:Zilog
 LIBS:micro_c_header
+LIBS:teensy_convertor-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -111,46 +112,6 @@ F 3 "" H 2775 3300 60  0001 C CNN
 	1    3000 3625
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4175 2625 3925 2625
-Wire Wire Line
-	3950 4575 3925 4575
-Text Label 3925 2775 0    60   ~ 0
-LED1
-Text Label 3925 2925 0    60   ~ 0
-SW1
-Text Label 3925 3075 0    60   ~ 0
-LED3
-Text Label 3925 3225 0    60   ~ 0
-SW3
-Text Label 3925 3375 0    60   ~ 0
-LED2
-Text Label 3925 3525 0    60   ~ 0
-SW2
-Text Label 2100 3000 2    60   ~ 0
-LED6
-Text Label 2100 3175 2    60   ~ 0
-SW6
-Text Label 2100 3375 2    60   ~ 0
-LED9
-Text Label 2100 3500 2    60   ~ 0
-SW9
-Text Label 2100 3675 2    60   ~ 0
-LED8
-Text Label 2100 3850 2    60   ~ 0
-SW8
-Text Label 3925 3675 0    60   ~ 0
-LED4
-Text Label 3925 3825 0    60   ~ 0
-SW4
-Text Label 3925 3975 0    60   ~ 0
-LED7
-Text Label 3925 4125 0    60   ~ 0
-SW7
-Text Label 2100 4000 2    60   ~ 0
-LED5
-Text Label 2100 4125 2    60   ~ 0
-SW5
 $Comp
 L MicroC_Header U?
 U 1 1 59279C22
@@ -162,4 +123,129 @@ F 3 "" H 7250 3400 60  0001 C CNN
 	1    7250 3550
 	1    0    0    -1  
 $EndComp
+$Comp
+L CONN_01X03 J?
+U 1 1 592B3FA3
+P 5250 2850
+F 0 "J?" H 5250 3050 50  0000 C CNN
+F 1 "CONN_01X03" V 5350 2850 50  0000 C CNN
+F 2 "" H 5250 2850 50  0001 C CNN
+F 3 "" H 5250 2850 50  0001 C CNN
+	1    5250 2850
+	-1   0    0    1   
+$EndComp
+Text Label 2125 2850 2    60   ~ 0
+3.3V
+Text Label 5450 2950 0    60   ~ 0
+3.3V
+Text Label 8450 3600 0    60   ~ 0
+3.3V
+Text Label 2125 2575 2    60   ~ 0
+5.0V
+Text Label 5450 2750 0    60   ~ 0
+5.0V
+Text Label 8450 3450 0    60   ~ 0
+GND
+Text Label 6100 4200 2    60   ~ 0
+GND
+Text Label 3925 2625 0    60   ~ 0
+GND
+Text Label 6100 3000 2    60   ~ 0
+SPI_MOSI
+Text Label 3925 4425 0    60   ~ 0
+SPI_MOSI
+Text Label 6100 3150 2    60   ~ 0
+SPI_CLK
+Text Label 2125 4575 2    60   ~ 0
+SPI_CLK
+Text Label 8450 3000 0    60   ~ 0
+SPI_MISO
+Text Label 3925 4575 0    60   ~ 0
+SPI_MISO
+Text Label 8450 3150 0    60   ~ 0
+SPI_CS
+Text Label 3925 4275 0    60   ~ 0
+SPI_CS
+$Comp
+L R R?
+U 1 1 592B478D
+P 5650 3300
+F 0 "R?" V 5730 3300 50  0000 C CNN
+F 1 "0" V 5650 3300 50  0000 C CNN
+F 2 "" V 5580 3300 50  0001 C CNN
+F 3 "" H 5650 3300 50  0001 C CNN
+	1    5650 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 592B4823
+P 8900 3300
+F 0 "R?" V 8980 3300 50  0000 C CNN
+F 1 "0" V 8900 3300 50  0000 C CNN
+F 2 "" V 8830 3300 50  0001 C CNN
+F 3 "" H 8900 3300 50  0001 C CNN
+	1    8900 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 2850 5450 2850
+Wire Wire Line
+	5750 3300 6100 3300
+Wire Wire Line
+	8450 3300 8750 3300
+Wire Wire Line
+	9050 3300 9325 3300
+Wire Wire Line
+	5500 3300 5225 3300
+Text Label 9325 3300 0    60   ~ 0
+TEENSY_RX
+Text Label 3925 2775 0    60   ~ 0
+TEENSY_RX
+Text Label 5225 3300 2    60   ~ 0
+TEENSY_TX
+Text Label 3925 2925 0    60   ~ 0
+TEENSY_TX
+Text Label 6100 3750 2    60   ~ 0
+I2C_SCLK
+Text Label 2125 3625 2    60   ~ 0
+I2C_SCLK
+Text Label 2125 3775 2    60   ~ 0
+I2C_SDAT
+Text Label 8450 3750 0    60   ~ 0
+I2C_SDAT
+Text Label 6100 3900 2    60   ~ 0
+AIO0
+Text Label 2125 4425 2    60   ~ 0
+AIO0
+Text Label 6100 4050 2    60   ~ 0
+AIO2
+Text Label 8450 3900 0    60   ~ 0
+AIO1
+Text Label 8450 4050 0    60   ~ 0
+AIO3
+Text Label 2125 4125 2    60   ~ 0
+AIO2
+Text Label 2125 4275 2    60   ~ 0
+AIO1
+Text Label 2125 3975 2    60   ~ 0
+AIO3
+NoConn ~ 3925 3075
+NoConn ~ 3925 3225
+NoConn ~ 3925 3375
+NoConn ~ 3925 3525
+NoConn ~ 3925 3675
+NoConn ~ 3925 3825
+NoConn ~ 3925 3975
+NoConn ~ 3925 4125
+NoConn ~ 3425 5000
+NoConn ~ 3250 5000
+NoConn ~ 3075 5000
+NoConn ~ 2900 5000
+NoConn ~ 2750 5000
+NoConn ~ 2125 3475
+NoConn ~ 2125 3325
+NoConn ~ 2125 3175
+NoConn ~ 2125 3000
+NoConn ~ 2125 2725
 $EndSCHEMATC
