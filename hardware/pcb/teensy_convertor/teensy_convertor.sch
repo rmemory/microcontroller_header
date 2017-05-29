@@ -104,13 +104,13 @@ $EndDescr
 $Comp
 L Teensy-3.2 U1
 U 1 1 586B0354
-P 3000 3625
-F 0 "U1" H 3150 3375 60  0000 C CNN
-F 1 "Teensy-3.2" H 2875 4800 60  0000 C CNN
-F 2 "teensy_convertor:Teensy-32" H 2775 3300 60  0001 C CNN
-F 3 "" H 2775 3300 60  0001 C CNN
-	1    3000 3625
-	1    0    0    -1  
+P 3100 3625
+F 0 "U1" H 3250 3375 60  0000 C CNN
+F 1 "Teensy-3.2" H 2975 4800 60  0000 C CNN
+F 2 "teensy_convertor:Teensy-32" H 2875 3300 60  0001 C CNN
+F 3 "" H 2875 3300 60  0001 C CNN
+	1    3100 3625
+	-1   0    0    -1  
 $EndComp
 $Comp
 L MicroC_Header U101
@@ -134,13 +134,13 @@ F 3 "" H 5250 2850 50  0001 C CNN
 	1    5250 2850
 	-1   0    0    1   
 $EndComp
-Text Label 2125 2850 2    60   ~ 0
+Text Label 3975 2850 0    60   ~ 0
 3.3V
 Text Label 5450 2950 0    60   ~ 0
 3.3V
 Text Label 8450 3600 0    60   ~ 0
 3.3V
-Text Label 2125 2575 2    60   ~ 0
+Text Label 3975 2575 0    60   ~ 0
 5.0V
 Text Label 5450 2750 0    60   ~ 0
 5.0V
@@ -148,23 +148,23 @@ Text Label 8450 3450 0    60   ~ 0
 GND
 Text Label 6100 4200 2    60   ~ 0
 GND
-Text Label 3925 2625 0    60   ~ 0
+Text Label 2175 2625 2    60   ~ 0
 GND
 Text Label 6100 3000 2    60   ~ 0
 SPI_MOSI
-Text Label 3925 4425 0    60   ~ 0
+Text Label 2175 4425 2    60   ~ 0
 SPI_MOSI
 Text Label 6100 3150 2    60   ~ 0
 SPI_CLK
-Text Label 2125 4575 2    60   ~ 0
+Text Label 3975 4575 0    60   ~ 0
 SPI_CLK
 Text Label 8450 3000 0    60   ~ 0
 SPI_MISO
-Text Label 3925 4575 0    60   ~ 0
+Text Label 2175 4575 2    60   ~ 0
 SPI_MISO
 Text Label 8450 3150 0    60   ~ 0
 SPI_CS
-Text Label 3925 4275 0    60   ~ 0
+Text Label 2175 4275 2    60   ~ 0
 SPI_CS
 $Comp
 L R R101
@@ -191,7 +191,7 @@ $EndComp
 Wire Wire Line
 	6100 2850 5450 2850
 Wire Wire Line
-	5750 3300 6100 3300
+	5800 3300 6100 3300
 Wire Wire Line
 	8450 3300 8750 3300
 Wire Wire Line
@@ -200,23 +200,23 @@ Wire Wire Line
 	5500 3300 5225 3300
 Text Label 9325 3300 0    60   ~ 0
 TEENSY_RX
-Text Label 3925 2775 0    60   ~ 0
+Text Label 2175 2775 2    60   ~ 0
 TEENSY_RX
 Text Label 5225 3300 2    60   ~ 0
 TEENSY_TX
-Text Label 3925 2925 0    60   ~ 0
+Text Label 2175 2925 2    60   ~ 0
 TEENSY_TX
 Text Label 6100 3750 2    60   ~ 0
 I2C_SCLK
-Text Label 2125 3625 2    60   ~ 0
+Text Label 3975 3625 0    60   ~ 0
 I2C_SCLK
-Text Label 2125 3775 2    60   ~ 0
+Text Label 3975 3775 0    60   ~ 0
 I2C_SDAT
 Text Label 8450 3750 0    60   ~ 0
 I2C_SDAT
 Text Label 6100 3900 2    60   ~ 0
 AIO0
-Text Label 2125 4425 2    60   ~ 0
+Text Label 3975 4425 0    60   ~ 0
 AIO0
 Text Label 6100 4050 2    60   ~ 0
 AIO2
@@ -224,28 +224,29 @@ Text Label 8450 3900 0    60   ~ 0
 AIO1
 Text Label 8450 4050 0    60   ~ 0
 AIO3
-Text Label 2125 4125 2    60   ~ 0
+Text Label 3975 4125 0    60   ~ 0
 AIO2
-Text Label 2125 4275 2    60   ~ 0
+Text Label 3975 4275 0    60   ~ 0
 AIO1
-Text Label 2125 3975 2    60   ~ 0
+Text Label 3975 3975 0    60   ~ 0
 AIO3
-NoConn ~ 3925 3075
-NoConn ~ 3925 3225
-NoConn ~ 3925 3375
-NoConn ~ 3925 3525
-NoConn ~ 3925 3675
-NoConn ~ 3925 3825
-NoConn ~ 3925 3975
-NoConn ~ 3925 4125
-NoConn ~ 3425 5000
-NoConn ~ 3250 5000
-NoConn ~ 3075 5000
-NoConn ~ 2900 5000
-NoConn ~ 2750 5000
-NoConn ~ 2125 3475
-NoConn ~ 2125 3325
-NoConn ~ 2125 3175
-NoConn ~ 2125 3000
-NoConn ~ 2125 2725
+NoConn ~ 2175 3075
+NoConn ~ 2175 3225
+NoConn ~ 2175 3375
+NoConn ~ 2175 3525
+NoConn ~ 2175 3675
+NoConn ~ 2175 3825
+NoConn ~ 2175 3975
+NoConn ~ 2175 4125
+NoConn ~ 2675 5000
+NoConn ~ 2850 5000
+NoConn ~ 3200 5000
+NoConn ~ 3350 5000
+NoConn ~ 3975 3475
+NoConn ~ 3975 3325
+NoConn ~ 3975 3175
+NoConn ~ 3975 3000
+NoConn ~ 3975 2725
+Text Label 3025 5000 3    60   ~ 0
+GND
 $EndSCHEMATC
