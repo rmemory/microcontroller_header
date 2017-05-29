@@ -1,4 +1,4 @@
-update=Sun 28 May 2017 01:01:52 PM MDT
+update=Sun 28 May 2017 07:53:40 PM MDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -116,3 +114,5 @@ LibName84=Xicor
 LibName85=zetex
 LibName86=Zilog
 LibName87=micro_c_header
+[general]
+version=1

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name teensy_convertor)(type KiCad)(uri "$(KIPRJMOD)/teensy_convertor.pretty")(options "")(descr ""))
+  (lib (name micro_c_header)(type KiCad)(uri /home/rmemory/Documents/contextual/microcontroller_header/hardware/pcb/micro_c_header.pretty)(options "")(descr ""))
+)
