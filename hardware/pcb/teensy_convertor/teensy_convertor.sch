@@ -102,10 +102,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Teensy-3.2 U1
+L Teensy-3.2 U101
 U 1 1 586B0354
 P 3100 3625
-F 0 "U1" H 3250 3375 60  0000 C CNN
+F 0 "U101" H 3250 3375 60  0000 C CNN
 F 1 "Teensy-3.2" H 2975 4800 60  0000 C CNN
 F 2 "teensy_convertor:Teensy-32" H 2875 3300 60  0001 C CNN
 F 3 "" H 2875 3300 60  0001 C CNN
@@ -113,10 +113,10 @@ F 3 "" H 2875 3300 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MicroC_Header U101
+L MicroC_Header U102
 U 1 1 59279C22
 P 7250 3550
-F 0 "U101" H 7250 3550 60  0000 C CNN
+F 0 "U102" H 7250 3550 60  0000 C CNN
 F 1 "MicroC_Header" H 7250 4450 60  0000 C CNN
 F 2 "micro_c_header:MicroC_Header_Pitch2.54mm" H 7250 3400 60  0001 C CNN
 F 3 "" H 7250 3400 60  0001 C CNN
