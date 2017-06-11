@@ -1,4 +1,4 @@
-update=Sun 04 Jun 2017 10:13:47 PM MDT
+update=Sat 10 Jun 2017 06:10:45 PM MDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=micro_c_header
+LibName31=SensorBasic
